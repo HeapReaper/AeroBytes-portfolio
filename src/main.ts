@@ -9,12 +9,6 @@ import { Navbar } from '@components/Navbar';
 const app: HTMLElement | null = document.querySelector<HTMLDivElement>('#app');
 
 if (app) {
-  app.innerHTML = `
-    <div>
-    
-    </div>
-  `;
-
   app.appendChild(Navbar());
 } else {
   throw new Error('Element with ID app not found in main.ts!');
