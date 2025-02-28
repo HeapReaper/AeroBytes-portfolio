@@ -1,23 +1,11 @@
-import AOS from 'aos';
 import Typed from 'typed.js';
 
 /**
- * Animation on scroll function and init
+ * Type animation for the hero section
+ *
+ * @returns void
  */
-function aosInit() {
-  AOS.init({
-    duration: 600,
-    easing: 'ease-in-out',
-    once: true,
-    mirror: false
-  });
-}
-window.addEventListener('load', aosInit);
-
-/**
- * Typed text function and init
- */
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', (): void => {
   const selectTyped: Element | null = document.querySelector('.typed');
 
   if (!selectTyped) return;
