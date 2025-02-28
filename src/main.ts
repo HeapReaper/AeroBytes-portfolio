@@ -1,21 +1,21 @@
-import './style.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'aos/dist/aos.css';
 import 'glightbox/dist/css/glightbox.min.css';
 import 'swiper/swiper-bundle.css';
+import './style.css'
+
 import { Navbar } from '@components/Navbar';
+import { Footer } from '@components/Footer';
+import { Hero } from '@pages/Hero.ts';
+import { About } from '@pages/About.ts';
 
 const app: HTMLElement | null = document.querySelector<HTMLDivElement>('#app');
 
 if (app) {
-  app.innerHTML = `
-    <div>
-    
-    </div>
-  `;
-
   app.appendChild(Navbar());
+  app.appendChild(Hero());
+  app.appendChild(About());
+  app.appendChild(Footer());
 } else {
   throw new Error('Element with ID app not found in main.ts!');
 }
