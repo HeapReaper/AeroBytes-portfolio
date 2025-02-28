@@ -14,7 +14,7 @@ export function About(): HTMLElement {
       </h2>
     </div>
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container fade-up" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-4 justify-content-center">
         <div class="col-lg-4 justify-content-center" style="text-align: center;">
           <img alt="" class="img-fluid" src="${Me}" style="width: 250px;">
