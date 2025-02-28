@@ -1,5 +1,6 @@
 // src/components/Hero.ts
 
+import Typed from 'typed.js';
 import planeImage from '/src/assets/img/plane-image-background.webp';
 
 export function Hero(): HTMLElement {
@@ -39,3 +40,25 @@ export function Hero(): HTMLElement {
 
   return heroSection;
 }
+
+/**
+ * Type animation for the hero section
+ *
+ * @returns void
+ */
+document.addEventListener('DOMContentLoaded', (): void => {
+  const selectTyped: Element | null = document.querySelector('.typed');
+
+  if (!selectTyped) return;
+
+  let typedArray: Array<any> = [selectTyped.getAttribute('data-typed-items')];
+
+  new Typed('.typed', {
+    strings: typedArray,
+    typeSpeed: 50,
+    backSpeed: 25,
+    backDelay: 2000,
+    startDelay: 1000,
+    loop: true,
+  });
+});

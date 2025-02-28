@@ -1,5 +1,4 @@
 import './style.css'
-import './app.ts';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'glightbox/dist/css/glightbox.min.css';
