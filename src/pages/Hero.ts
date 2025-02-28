@@ -1,4 +1,4 @@
-// src/components/Hero.ts
+// src/pages/Hero.ts
 
 import Typed from 'typed.js';
 import planeImage from '/src/assets/img/plane-image-background.webp';

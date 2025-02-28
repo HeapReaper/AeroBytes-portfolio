@@ -3,8 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'glightbox/dist/css/glightbox.min.css';
 import 'swiper/swiper-bundle.css';
+
 import { Navbar } from '@components/Navbar';
-import { Hero } from '@components/Hero';
+import { Hero } from '@pages/Hero.ts';
 
 const app: HTMLElement | null = document.querySelector<HTMLDivElement>('#app');
 
