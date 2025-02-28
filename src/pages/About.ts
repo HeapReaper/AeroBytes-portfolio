@@ -40,7 +40,7 @@ export function About(): HTMLElement {
                     11 may 2001
                   </span>
                 </li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://aerobytes.nl</span>
+                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>portfolio.aerobytes.nl</span>
                 </li>
                 <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Groenlo, Netherlands</span>
                 </li>
