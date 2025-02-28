@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', (): void => {
 
   if (!selectTyped) return;
 
-  let typedArray: Array<any> = [selectTyped.getAttribute('data-typed-items')];
+  const typedArray: Array<any> = [selectTyped.getAttribute('data-typed-items')];
 
   new Typed('.typed', {
     strings: typedArray,
