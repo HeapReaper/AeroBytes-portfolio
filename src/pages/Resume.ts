@@ -16,7 +16,7 @@ export function Resume(): HTMLElement {
       <div class="row">
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
           <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
+          <div class="resume-item pb-0">
             <h4>Software developer</h4>
             <h5>11-2024 - 12-2024</h5>
             <p><em>Hanninkhof.de</em></p>
@@ -34,7 +34,7 @@ export function Resume(): HTMLElement {
             </ul>
           </div>
 
-          <div class="resume-item">
+          <div class="resume-item pb-0">
             <h4>Helpdesk employee</h4>
             <h5>02-2022 - 06-2022</h5>
             <p><em>Teleperformance, Netherlands</em></p>
