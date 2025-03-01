@@ -1,30 +1,30 @@
 // src/pages/Tools.ts
 
-import imagePhpStorm from '@img/icons/phpstorm.png';
-import imagePyCharm from '@img/icons/pycharm.png';
-import imageWebStorm from '@img/icons/WebStorm.png';
-import imageVsCode from '@img/icons/vscode.png';
-import imageGit from '@img/icons/git.png';
-import imageGitHub from '@img/icons/github-icon-2.png';
-import imageLaravel from '@img/icons/laravel.png';
-import imageLivewire from '@img/icons/livewire.png';
-import imageAlpineJS from '@img/icons/alpinejs.png';
-import imageBootstrap from '@img/icons/bootstrap.png';
-import imageTailWindCSS from '@img/icons/tailwindcss.png';
-import imageDisnake from '@img/icons/disnake-logo.png';
-import imageViteJS from '@img/icons/Vitejs-logo.png';
-import imagePhp from '@img/icons/php.png';
-import imagePython from '@img/icons/python.png';
-import imageJS from '@img/icons/js.png';
-import imageTS from '@img/icons/TS_logo.png';
-import imageHtml from '@img/icons/html5.png';
-import imageCss from '@img/icons/css3.png';
-import imageDocker from '@img/icons/docker.png';
-import imagelinux from '@img/icons/Tux.svg.png';
-import imageMariaDB from '@img/icons/mariadb-logo-vert_blue-transparent.png';
-import imageMySQL from '@img/icons/mysql-logo.svg';
-import imageProxmox from '@img/icons/proxmox.png';
-import imageCoolify from '@img/icons/coolify-logo.png';
+import imagePhpStorm from '@img/icons/phpstorm.webp';
+import imagePyCharm from '@img/icons/pycharm.webp';
+import imageWebStorm from '@img/icons/WebStorm.webp';
+import imageVsCode from '@img/icons/vscode.webp';
+import imageGit from '@img/icons/git.webp';
+import imageGitHub from '@img/icons/github-icon-2.webp';
+import imageLaravel from '@img/icons/laravel.webp';
+import imageLivewire from '@img/icons/livewire.webp';
+import imageAlpineJS from '@img/icons/alpinejs.webp';
+import imageBootstrap from '@img/icons/bootstrap.webp';
+import imageTailWindCSS from '@img/icons/tailwindcss.webp';
+import imageDisnake from '@img/icons/disnake-logo.webp';
+import imageViteJS from '@img/icons/Vitejs-logo.webp';
+import imagePhp from '@img/icons/php.webp';
+import imagePython from '@img/icons/python.webp';
+import imageJS from '@img/icons/js.webp';
+import imageTS from '@img/icons/TS_logo.webp';
+import imageHtml from '@img/icons/html5.webp';
+import imageCss from '@img/icons/css3.webp';
+import imageDocker from '@img/icons/docker.webp';
+import imagelinux from '@img/icons/Tux.webp';
+import imageMariaDB from '@img/icons/mariadb-logo-vert_blue-transparent.webp';
+import imageMySQL from '@img/icons/mysql_logo.webp';
+import imageProxmox from '@img/icons/proxmox.webp';
+import imageCoolify from '@img/icons/coolify-logo.webp';
 
 export function Tools(): HTMLElement {
   const toolsSection: HTMLElement = document.createElement('section');
@@ -160,7 +160,7 @@ export function Tools(): HTMLElement {
                 <p>MariaDB</p>
               </div>
               <div>
-                <img src="${imageMySQL}" style="width: 85px;" />
+                <img src="${imageMySQL}" style="width: 65px;" />
                 <p>MySQL</p>
               </div>
               <div>
