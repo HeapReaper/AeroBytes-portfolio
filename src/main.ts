@@ -1,8 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import 'glightbox/dist/css/glightbox.min.css';
-import 'swiper/swiper-bundle.css';
-import './style.css'
+import './style.css';
 
 import { Navbar } from '@components/Navbar';
 import { Footer } from '@components/Footer';
@@ -27,4 +23,5 @@ if (app) {
 } else {
   throw new Error('Element with ID app not found in main.ts!');
 }
+
 
