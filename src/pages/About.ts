@@ -62,8 +62,6 @@ export function About(): HTMLElement {
               </ul>
             </div>
           </div>
-          <p class="py-3">
-          </p>
         </div>
       </div>
     </div>
