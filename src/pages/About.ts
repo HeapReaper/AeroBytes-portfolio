@@ -78,9 +78,9 @@ export function About(): HTMLElement {
  * @param birthdate format: yyyy-mm-dd
  * @returns number age
  */
-function calculateAge(birthdate: Date): number {
-	const birth: date = new Date(birthdate);
-	const today: date = new Date();
+function calculateAge(birthdate: string): number {
+	const birth: Date = new Date(birthdate);
+	const today: Date = new Date();
 	
 	let age: number = today.getFullYear() - birth.getFullYear();
 	const monthDifference: number = today.getMonth() - birth.getMonth();
