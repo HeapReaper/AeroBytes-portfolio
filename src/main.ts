@@ -1,4 +1,5 @@
 import './style.css';
+import AOS from 'aos';
 
 import { Navbar } from '@components/Navbar';
 import { Footer } from '@components/Footer';
@@ -12,6 +13,7 @@ import { Services } from '@pages/Services.ts';
 const app: HTMLElement | null = document.querySelector<HTMLDivElement>('#app');
 
 if (app) {
+  AOS.init();
   app.appendChild(Navbar());
   app.appendChild(Hero());
   app.appendChild(About());
