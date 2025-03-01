@@ -37,7 +37,7 @@ export function Services(): HTMLElement {
         Tools, frameworks and coding languages
       </h2>
       <p>
-        I do a lot of things. These are the ones I use the most.
+        These are the ones I use the most.
       </p>
     </div>
     
