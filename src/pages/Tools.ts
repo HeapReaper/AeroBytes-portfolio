@@ -1,30 +1,30 @@
 // src/pages/Tools.ts
 
-import imagePhpStorm from '@img/icons/phpstorm.png';
-import imagePyCharm from '@img/icons/pycharm.png';
-import imageWebStorm from '@img/icons/WebStorm.png';
-import imageVsCode from '@img/icons/vscode.png';
-import imageGit from '@img/icons/git.png';
-import imageGitHub from '@img/icons/github-icon-2.png';
-import imageLaravel from '@img/icons/laravel.png';
-import imageLivewire from '@img/icons/livewire.png';
-import imageAlpineJS from '@img/icons/alpinejs.png';
-import imageBootstrap from '@img/icons/bootstrap.png';
-import imageTailWindCSS from '@img/icons/tailwindcss.png';
-import imageDisnake from '@img/icons/disnake-logo.png';
-import imageViteJS from '@img/icons/Vitejs-logo.png';
-import imagePhp from '@img/icons/php.png';
-import imagePython from '@img/icons/python.png';
-import imageJS from '@img/icons/js.png';
-import imageTS from '@img/icons/TS_logo.png';
-import imageHtml from '@img/icons/html5.png';
-import imageCss from '@img/icons/css3.png';
-import imageDocker from '@img/icons/docker.png';
-import imagelinux from '@img/icons/Tux.svg.png';
-import imageMariaDB from '@img/icons/mariadb-logo-vert_blue-transparent.png';
-import imageMySQL from '@img/icons/mysql-logo.svg';
-import imageProxmox from '@img/icons/proxmox.png';
-import imageCoolify from '@img/icons/coolify-logo.png';
+import imagePhpStorm from '@img/icons/phpstorm.webp';
+import imagePyCharm from '@img/icons/pycharm.webp';
+import imageWebStorm from '@img/icons/WebStorm.webp';
+import imageVsCode from '@img/icons/vscode.webp';
+import imageGit from '@img/icons/git.webp';
+import imageGitHub from '@img/icons/github-icon-2.webp';
+import imageLaravel from '@img/icons/laravel.webp';
+import imageLivewire from '@img/icons/livewire.webp';
+import imageAlpineJS from '@img/icons/alpinejs.webp';
+import imageBootstrap from '@img/icons/bootstrap.webp';
+import imageTailWindCSS from '@img/icons/tailwindcss.webp';
+import imageDisnake from '@img/icons/disnake-logo.webp';
+import imageViteJS from '@img/icons/Vitejs-logo.webp';
+import imagePhp from '@img/icons/php.webp';
+import imagePython from '@img/icons/python.webp';
+import imageJS from '@img/icons/js.webp';
+import imageTS from '@img/icons/TS_logo.webp';
+import imageHtml from '@img/icons/html5.webp';
+import imageCss from '@img/icons/css3.webp';
+import imageDocker from '@img/icons/docker.webp';
+import imagelinux from '@img/icons/Tux.webp';
+import imageMariaDB from '@img/icons/mariadb-logo-vert_blue-transparent.webp';
+import imageMySQL from '@img/icons/mysql_logo.webp';
+import imageProxmox from '@img/icons/proxmox.webp';
+import imageCoolify from '@img/icons/coolify-logo.webp';
 
 export function Tools(): HTMLElement {
   const toolsSection: HTMLElement = document.createElement('section');
@@ -47,27 +47,27 @@ export function Tools(): HTMLElement {
           <p align="center">
             <h2 align="center">Tools</h2>
             <div align="center">
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagePhpStorm}" style="width: 45px;" />
                 <p>PhpStorm</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagePyCharm}" style="width: 45px;" />
                 <p>PyCharm</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageWebStorm}"" style="width: 45px;" />
                 <p>WebStorm</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageVsCode}" style="width: 45px;" />
                 <p>VSCode</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageGit}" style="width: 50px;" />
                 <p>Git</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageGitHub}" style="width: 45px;" />
                 <p>GitHub</p>
               </div>
@@ -79,31 +79,31 @@ export function Tools(): HTMLElement {
           <p align="center">
             <h2 align="center">Frameworks</h2>
             <div align="center">
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageLaravel}" style="width: 45px;" />
                 <p>Laravel</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageLivewire}" style="width: 50px;" />
                 <p>Livewire</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageAlpineJS}" style="width: 50px;" />
                 <p>AlpineJS</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageBootstrap}" style="width: 50px;" />
                 <p>Bootstrap</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageTailWindCSS}" style="width: 50px;" />
                 <p>Tailwind CSS</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageDisnake}" style="width: 50px;" />
                 <p>Disnake</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageViteJS}" style="width: 50px;" />
                 <p>Vite</p>
               </div>
@@ -115,27 +115,27 @@ export function Tools(): HTMLElement {
           <p align="center">
             <h2 align="center">Languages</h2>
             <div align="center">
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagePhp}" style="width: 60px;" />
                 <p>PHP</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagePython}" style="width: 50px;" />
                 <p>Python</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageJS}" style="width: 50px;" />
                 <p>JavaScript</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageTS}" style="width: 50px;" />
                 <p>TypeScript</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageHtml}" style="width: 50px;" />
                 <p>HTML5</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageCss}" style="width: 50px;" />
                 <p>CSS3</p>
               </div>
@@ -147,27 +147,27 @@ export function Tools(): HTMLElement {
           <p align="center">
             <h2 align="center">Tech</h2>
             <div align="center">
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageDocker}" style="width: 55px;" />
                 <p>Docker</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagelinux}" style="width: 55px;" />
                 <p>Linux</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageMariaDB}" style="width: 55px;" />
                 <p>MariaDB</p>
               </div>
-              <div>
-                <img src="${imageMySQL}" style="width: 85px;" />
+              <div class="image-hover-resize-10">
+                <img src="${imageMySQL}" style="width: 65px;" />
                 <p>MySQL</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageProxmox}" style="width: 50px;" />
                 <p>Proxmox VE</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageCoolify}" style="width: 65px;" />
                 <p>Coolify</p>
               </div>

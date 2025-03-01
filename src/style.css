@@ -31,6 +31,23 @@
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
+.image-hover-resize-10-shadow {
+  transition: transform 0.3s ease;
+}
+
+.image-hover-resize-10-shadow:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.2);
+}
+
+.image-hover-resize-10 {
+  transition: transform 0.3s ease;
+}
+
+.image-hover-resize-10:hover {
+  transform: scale(1.2);
+}
+
 .light-background {
   --background-color: #252525;
 }

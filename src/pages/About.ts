@@ -1,6 +1,6 @@
 // src/pages/About.ts
 
-import Me from '@img/Me.png';
+import Me from '@img/Me.webp';
 
 export function About(): HTMLElement {
 	const aboutSection: HTMLElement = document.createElement('section');

@@ -1,11 +1,11 @@
 // src/pages/Services.ts
 
-import imageCode from '@img/services/code.png';
-import imageServer from '@img/services/server.png';
-import imageEmail from '@img/services/email.png';
-import imageSite from '@img/services/site.png';
-import imageThinker from '@img/services/thinker.png';
-import imageCad from '@img/services/cad.png';
+import imageCode from '@img/services/code.webp';
+import imageServer from '@img/services/server.webp';
+import imageEmail from '@img/services/email.webp';
+import imageSite from '@img/services/site.webp';
+import imageThinker from '@img/services/thinker.webp';
+import imageCad from '@img/services/cad.webp';
 
 export function Services() {
 	const servicesSection: HTMLElement = document.createElement('section');
@@ -32,7 +32,6 @@ export function Services() {
             <a class="stretched-link" href="">
               <h3>Software development</h3>
             </a>
-            <p>Coding websites with Laravel and Bootstrap. Creating Discord bots with Disnake.</p>
           </div>
         </div>
 
