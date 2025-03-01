@@ -19,7 +19,7 @@ import imageJS from '@img/icons/js.png';
 import imageTS from '@img/icons/TS_logo.png';
 import imageHtml from '@img/icons/html5.png';
 import imageCss from '@img/icons/css3.png';
-import imageDocker from '@img/icons/97_Docker_logo_logos-512.webp';
+import imageDocker from '@img/icons/docker.png';
 import imagelinux from '@img/icons/Tux.svg.png';
 import imageMariaDB from '@img/icons/mariadb-logo-vert_blue-transparent.png';
 import imageMySQL from '@img/icons/mysql-logo.svg';
