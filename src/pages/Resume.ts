@@ -161,7 +161,7 @@ export function Resume(): HTMLElement {
 
           <div class="resume-item pb-0">
             <h4>Wordpress plugin</h4>
-            <p><em>A Wordpress plugin to send a notification to a Discord channel when a new article has been posted</em></p>
+            <p><em>A Wordpress plugin to send a notification to<br> a Discord channel when a new article has been posted</em></p>
             <ul>
               <li>
                 <div class="social-links">
