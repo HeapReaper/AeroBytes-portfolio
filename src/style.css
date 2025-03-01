@@ -150,7 +150,6 @@ h6 {
 @media (max-width: 1199px) {
   .header {
     background-color: var(--background-color);
-    border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
     width: 300px;
     left: -100%;
   }
@@ -404,30 +403,32 @@ section,
   position: relative;
 }
 
-.section-title h2:before {
+.section-title h2::before {
   content: "";
   position: absolute;
   display: block;
-  width: 160px;
-  height: 1px;
+  width: 200px;
+  height: 2px;
   background: color-mix(in srgb, var(--default-color), transparent 60%);
   left: 0;
   right: 0;
   bottom: 1px;
   margin: auto;
+  border-radius: 2px;
 }
 
 .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 60px;
-  height: 3px;
+  width: 200px;
+  height: 2px;
   background: var(--accent-color);
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
+  border-radius: 2px;
 }
 
 .section-title p {
