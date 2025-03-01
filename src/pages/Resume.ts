@@ -25,11 +25,11 @@ export function Resume(): HTMLElement {
                 Software development
               </li>
               <li>
-                Development off an paying, booking and customer management system for an vacation home
+                Development off a paying, booking and customer management system for a vacation home
                 company
               </li>
               <li>
-                also helping them configuring their company website
+                also helping them to configure their company website
               </li>
             </ul>
           </div>

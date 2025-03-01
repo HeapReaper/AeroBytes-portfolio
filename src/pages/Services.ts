@@ -32,7 +32,6 @@ export function Services() {
             <a class="stretched-link" href="">
               <h3>Software development</h3>
             </a>
-            <p>Coding websites with Laravel and Bootstrap. Creating Discord bots with Disnake.</p>
           </div>
         </div>
 
