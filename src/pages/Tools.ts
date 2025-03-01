@@ -27,11 +27,11 @@ import imageProxmox from '@img/icons/proxmox.png';
 import imageCoolify from '@img/icons/coolify-logo.png';
 
 export function Tools(): HTMLElement {
-  const servicesSection: HTMLElement = document.createElement('section');
-  servicesSection.className = 'services section';
-  servicesSection.id = 'tools';
-
-  servicesSection.innerHTML = `
+  const toolsSection: HTMLElement = document.createElement('section');
+  toolsSection.className = 'services section';
+  toolsSection.id = 'tools';
+  
+  toolsSection.innerHTML = `
     <div class="container section-title" data-aos="fade-up">
       <h2>
         Tools, frameworks and coding languages
@@ -41,7 +41,7 @@ export function Tools(): HTMLElement {
       </p>
     </div>
     
-        <div class="container">
+    <div class="container">
       <div class="row gy-4 justify-content-center">
         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <p align="center">
@@ -178,5 +178,5 @@ export function Tools(): HTMLElement {
     </div>
   `;
 
-  return servicesSection;
+  return toolsSection;
 }
