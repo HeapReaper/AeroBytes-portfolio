@@ -47,27 +47,27 @@ export function Tools(): HTMLElement {
           <p align="center">
             <h2 align="center">Tools</h2>
             <div align="center">
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagePhpStorm}" style="width: 45px;" />
                 <p>PhpStorm</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagePyCharm}" style="width: 45px;" />
                 <p>PyCharm</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageWebStorm}"" style="width: 45px;" />
                 <p>WebStorm</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageVsCode}" style="width: 45px;" />
                 <p>VSCode</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageGit}" style="width: 50px;" />
                 <p>Git</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageGitHub}" style="width: 45px;" />
                 <p>GitHub</p>
               </div>
@@ -79,31 +79,31 @@ export function Tools(): HTMLElement {
           <p align="center">
             <h2 align="center">Frameworks</h2>
             <div align="center">
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageLaravel}" style="width: 45px;" />
                 <p>Laravel</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageLivewire}" style="width: 50px;" />
                 <p>Livewire</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageAlpineJS}" style="width: 50px;" />
                 <p>AlpineJS</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageBootstrap}" style="width: 50px;" />
                 <p>Bootstrap</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageTailWindCSS}" style="width: 50px;" />
                 <p>Tailwind CSS</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageDisnake}" style="width: 50px;" />
                 <p>Disnake</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageViteJS}" style="width: 50px;" />
                 <p>Vite</p>
               </div>
@@ -115,27 +115,27 @@ export function Tools(): HTMLElement {
           <p align="center">
             <h2 align="center">Languages</h2>
             <div align="center">
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagePhp}" style="width: 60px;" />
                 <p>PHP</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagePython}" style="width: 50px;" />
                 <p>Python</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageJS}" style="width: 50px;" />
                 <p>JavaScript</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageTS}" style="width: 50px;" />
                 <p>TypeScript</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageHtml}" style="width: 50px;" />
                 <p>HTML5</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageCss}" style="width: 50px;" />
                 <p>CSS3</p>
               </div>
@@ -147,27 +147,27 @@ export function Tools(): HTMLElement {
           <p align="center">
             <h2 align="center">Tech</h2>
             <div align="center">
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageDocker}" style="width: 55px;" />
                 <p>Docker</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imagelinux}" style="width: 55px;" />
                 <p>Linux</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageMariaDB}" style="width: 55px;" />
                 <p>MariaDB</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageMySQL}" style="width: 65px;" />
                 <p>MySQL</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageProxmox}" style="width: 50px;" />
                 <p>Proxmox VE</p>
               </div>
-              <div>
+              <div class="image-hover-resize-10">
                 <img src="${imageCoolify}" style="width: 65px;" />
                 <p>Coolify</p>
               </div>

@@ -23,13 +23,13 @@ export function Hero(): HTMLElement {
           </span>
           </p>
           <div class="social-links">
-            <a class="text-white" href="https://github.com/AeroBytesNL" target="_blank">
+            <a class="text-white image-hover-resize-10-shadow" href="https://github.com/AeroBytesNL" target="_blank">
               <i class="bi bi-github"></i>
             </a>
-            <a class="text-white" href="https://www.youtube.com/@AeroBytesNL" target="_blank">
+            <a class="text-white image-hover-resize-10-shadow" href="https://www.youtube.com/@AeroBytesNL" target="_blank">
               <i class="bi bi-youtube"></i>
             </a>
-            <a class="text-white" href="https://discord.gg/DEQ2RK8RQB" target="_blank">
+            <a class="text-white image-hover-resize-10-shadow" href="https://discord.gg/DEQ2RK8RQB" target="_blank">
               <i class="bi bi-discord"></i>
             </a>
           </div>
