@@ -1,4 +1,4 @@
-// src/pages/Services.ts
+// src/pages/Tools.ts
 
 import imagePhpStorm from '@img/icons/phpstorm.png';
 import imagePyCharm from '@img/icons/pycharm.png';
@@ -26,7 +26,7 @@ import imageMySQL from '@img/icons/mysql-logo.svg';
 import imageProxmox from '@img/icons/proxmox.png';
 import imageCoolify from '@img/icons/coolify-logo.png';
 
-export function Services(): HTMLElement {
+export function Tools(): HTMLElement {
   const servicesSection: HTMLElement = document.createElement('section');
   servicesSection.className = 'services section';
   servicesSection.id = 'tools';
