@@ -9,6 +9,8 @@ import { Footer } from '@components/Footer';
 import { Hero } from '@pages/Hero.ts';
 import { About } from '@pages/About.ts';
 import { Resume } from '@pages/Resume.ts';
+import { Services } from '@pages/Services.ts';
+
 const app: HTMLElement | null = document.querySelector<HTMLDivElement>('#app');
 
 if (app) {
@@ -16,6 +18,7 @@ if (app) {
   app.appendChild(Hero());
   app.appendChild(About());
   app.appendChild(Resume());
+  app.appendChild(Services());
   app.appendChild(Footer());
 } else {
   throw new Error('Element with ID app not found in main.ts!');
