@@ -623,6 +623,15 @@ section,
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
+
+
+.resume-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .resume .resume-title {
   color: var(--heading-color);
   font-size: 26px;
@@ -636,6 +645,7 @@ section,
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
+  width: 100%;
 }
 
 .resume .resume-item h4 {
@@ -649,7 +659,7 @@ section,
 
 .resume .resume-item h5 {
   font-size: 16px;
-  padding: 5px 15px;
+  padding: 5px 0px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
