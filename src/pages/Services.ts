@@ -22,7 +22,7 @@ export function Services() {
       </p>
     </div>
     
-        <div class="container">
+    <div class="container">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="service-item item-cyan position-relative">
