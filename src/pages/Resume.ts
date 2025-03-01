@@ -12,7 +12,7 @@ export function Resume(): HTMLElement {
       </h2>
     </div>
     
-        <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
           <h3 class="resume-title">Professional Experience</h3>
