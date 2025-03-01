@@ -12,7 +12,7 @@ export function Resume(): HTMLElement {
       </h2>
     </div>
     
-        <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
           <h3 class="resume-title">Professional Experience</h3>
@@ -161,7 +161,7 @@ export function Resume(): HTMLElement {
 
           <div class="resume-item pb-0">
             <h4>Wordpress plugin</h4>
-            <p><em>A Wordpress plugin to send a notification to<br> a Discord channel when a new article has been posted</em></p>
+            <p><em>A WordPress plugin to send a notification to<br> a Discord channel when a new article has been posted</em></p>
             <ul>
               <li>
                 <div class="social-links">

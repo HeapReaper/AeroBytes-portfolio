@@ -17,7 +17,7 @@ export function About(): HTMLElement {
     <div class="container fade-up" data-aos="fade-up" data-aos-delay="100">
       <div class="row gy-4 justify-content-center">
         <div class="col-lg-4 justify-content-center" style="text-align: center;">
-          <img alt="" class="img-fluid" src="${Me}" style="width: 250px;">
+          <img alt="" class="img-fluid" src="${Me}" style="width: 200px;">
         </div>
         <div class="col-lg-8 content">
           <h2>
@@ -62,8 +62,6 @@ export function About(): HTMLElement {
               </ul>
             </div>
           </div>
-          <p class="py-3">
-          </p>
         </div>
       </div>
     </div>
