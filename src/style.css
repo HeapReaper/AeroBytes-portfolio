@@ -121,48 +121,6 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* PHP Email Form Messages
-------------------------------*/
-.php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #ffffff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: var(--surface-color);
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--accent-color);
-  border-top-color: var(--surface-color);
-  animation: php-email-form-loading 1s linear infinite;
-}
-
 @keyframes php-email-form-loading {
   0% {
     transform: rotate(0deg);
@@ -192,7 +150,6 @@ h6 {
 @media (max-width: 1199px) {
   .header {
     background-color: var(--background-color);
-    border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
     width: 300px;
     left: -100%;
   }
@@ -373,75 +330,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  inset: 0;
-  z-index: 999999;
-  overflow: hidden;
-  background: var(--background-color);
-  transition: all 0.6s ease-out;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #ffffff;
-  border-color: var(--accent-color) transparent var(--accent-color) transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1.5s linear infinite;
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Scroll Top Button
---------------------------------------------------------------*/
-.scroll-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: -15px;
-  z-index: 99999;
-  background-color: var(--accent-color);
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
-  transition: all 0.4s;
-}
-
-.scroll-top i {
-  font-size: 24px;
-  color: var(--contrast-color);
-  line-height: 0;
-}
-
-.scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-  color: var(--contrast-color);
-}
-
-.scroll-top.active {
-  visibility: visible;
-  opacity: 1;
-  bottom: 15px;
-}
-
-/*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
@@ -515,30 +403,32 @@ section,
   position: relative;
 }
 
-.section-title h2:before {
+.section-title h2::before {
   content: "";
   position: absolute;
   display: block;
-  width: 160px;
-  height: 1px;
+  width: 200px;
+  height: 2px;
   background: color-mix(in srgb, var(--default-color), transparent 60%);
   left: 0;
   right: 0;
   bottom: 1px;
   margin: auto;
+  border-radius: 2px;
 }
 
 .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 60px;
-  height: 3px;
+  width: 200px;
+  height: 2px;
   background: var(--accent-color);
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
+  border-radius: 2px;
 }
 
 .section-title p {
@@ -733,6 +623,15 @@ section,
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
+
+
+.resume-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .resume .resume-title {
   color: var(--heading-color);
   font-size: 26px;
@@ -746,6 +645,7 @@ section,
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
+  width: 100%;
 }
 
 .resume .resume-item h4 {
@@ -759,7 +659,7 @@ section,
 
 .resume .resume-item h5 {
   font-size: 16px;
-  padding: 5px 15px;
+  padding: 5px 0px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
@@ -785,7 +685,7 @@ section,
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: var(--background-color);
+  background: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
 

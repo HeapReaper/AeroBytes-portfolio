@@ -43,7 +43,7 @@ export function Tools(): HTMLElement {
     
     <div class="container">
       <div class="row gy-4 justify-content-center">
-        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
           <p align="center">
             <h2 align="center">Tools</h2>
             <div align="center">
@@ -75,7 +75,7 @@ export function Tools(): HTMLElement {
           </p>
         </div>
 
-        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
           <p align="center">
             <h2 align="center">Frameworks</h2>
             <div align="center">
@@ -111,7 +111,7 @@ export function Tools(): HTMLElement {
           </p>
         </div>
 
-        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
           <p align="center">
             <h2 align="center">Languages</h2>
             <div align="center">
@@ -143,7 +143,7 @@ export function Tools(): HTMLElement {
           </p>
         </div>
 
-        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
           <p align="center">
             <h2 align="center">Tech</h2>
             <div align="center">
