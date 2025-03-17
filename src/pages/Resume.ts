@@ -57,7 +57,7 @@ export function Resume(): HTMLElement {
               <h5>11-2021 - 12-2021</h5>
               <p><em>Centralpoint, Netherlands</em></p>
               <ul>
-                <li>IT migration, delivering laptops to employees</li>
+                <li>IT migration, delivering laptops to<br>  employees</li>
               </ul>
             </div>
           </div>
