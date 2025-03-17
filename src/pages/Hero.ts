@@ -13,7 +13,9 @@ export function Hero(): HTMLElement {
     <div class="container" data-aos="zoom-out">
       <div class="row justify-content-center">
         <div class="col-lg-9">
-          <h2 class="text-white">AeroBytes</h2>
+          <h2 class="text-white main-hero-title" id="main-hero-title">
+            <span>A</span><span>e</span><span>r</span><span>o</span><span>B</span><span>y</span><span>t</span><span>e</span><span>s</span>
+          </h2>
           <p class="text-white">
             <span class="typed"
               data-typed-items="Just like flight, great development and hosting is about balance, efficiency, performance and control.">

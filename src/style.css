@@ -78,7 +78,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #069AF3;
   border-radius: 10px;
 }
 
@@ -191,6 +191,36 @@ h6 {
 .header .header-toggle:hover {
   color: var(--contrast-color);
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+}
+
+.main-hero-title span {
+  display: inline-block;
+}
+
+.main-hero-title span:hover {
+  animation: float-up 0.6s cubic-bezier(0.85, 0, 0.15, 1) forwards;
+}
+
+.main-hero-title span {
+  animation: float-down 0.6s cubic-bezier(0.85, 0, 0.15, 1) forwards;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes float-down {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /*--------------------------------------------------------------
