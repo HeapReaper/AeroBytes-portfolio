@@ -60,6 +60,15 @@ export function Resume(): HTMLElement {
                 <li>IT migration, delivering laptops to<br>  employees</li>
               </ul>
             </div>
+            
+            <div class="resume-item">
+              <h4></h4>
+              <h5>05-2018 - 07-2021</h5>
+              <p><em>Integralis, Netherlands</em></p>
+              <ul>
+                <li>Mounting of air channels<br>  </li>
+              </ul>
+            </div>
           </div>
         </div>
         
@@ -102,6 +111,16 @@ export function Resume(): HTMLElement {
                 <li>Mailserver hosting</li>
                 <li>Web and Discord bot development</li>
                 <li><a href="https://alldaytechandgaming.nl" target="_blank">AllDayTechAndGaming.nl</a></li>
+              </ul>
+            </div>
+            
+            <div class="resume-item pb-0">
+              <h4>Handbuildcomputers.com</h4>
+              <ul>
+                <li>Web development</li>
+                <li>Web hosting</li>
+                <li>Mailserver hosting</li>
+                <li><a href="https://handbuildcomputers.com" target="_blank">Handbuildcomputers.com</a></li>
               </ul>
             </div>
           </div>
