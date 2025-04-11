@@ -1,5 +1,3 @@
-// src/pages/Services.ts
-
 import imageCode from '@img/services/code.webp';
 import imageServer from '@img/services/server.webp';
 import imageEmail from '@img/services/email.webp';
@@ -7,7 +5,7 @@ import imageSite from '@img/services/site.webp';
 import imageThinker from '@img/services/thinker.webp';
 import imageCad from '@img/services/cad.webp';
 
-export function Services() {
+export function Projects() {
 	const servicesSection: HTMLElement = document.createElement('section');
 	servicesSection.className = 'services section';
 	servicesSection.id = 'services';
