@@ -1,14 +1,9 @@
 import imageCode from '@img/services/code.webp';
-import imageServer from '@img/services/server.webp';
-import imageEmail from '@img/services/email.webp';
-import imageSite from '@img/services/site.webp';
-import imageThinker from '@img/services/thinker.webp';
-import imageCad from '@img/services/cad.webp';
 
 export function Projects() {
 	const servicesSection: HTMLElement = document.createElement('section');
-	servicesSection.className = 'services section';
-	servicesSection.id = 'services';
+	servicesSection.className = 'projects section';
+	servicesSection.id = 'projects';
 	
 	servicesSection.innerHTML = `
 	  <div class="container section-title" data-aos="fade-up">
@@ -20,76 +15,44 @@ export function Projects() {
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-item item-cyan position-relative">
+          <div class="projects-item item-cyan position-relative">
             <div class="icon">
               <img height="100" src="${imageCode}" width="100">
             </div>
-            <a class="stretched-link" href="">
-              <h3>Software development</h3>
+            <a class="stretched-link" href="https://github.com/AeroBytesNL/Kiyomi" target="_blank">
+              <h3>Kiyomi</h3>
             </a>
+			<p>
+			A Laravel based application to create articles, manage flights, members, send newsletters and a lot more!
+			</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="service-item item-orange position-relative">
+          <div class="projects-item item-orange position-relative">
             <div class="icon">
-              <img height="100" src="${imageServer}" width="100">
+              <img height="100" src="${imageCode}" width="100">
             </div>
-            <a class="stretched-link" href="">
-              <h3>Hosting</h3>
+            <a class="stretched-link" href="https://github.com/AeroBytesNL/AllDayBot-TS" target="_blank">
+              <h3>AllDayBot</h3>
             </a>
-            <p>Hosting websites, databases and Discord bots on Ubuntu server 22.04 and 24.04 LTS.</p>
+            <p>
+            A Discord bot written in TS. It has canvas reactions, a custom module structure and a nice database abstraction!
+			</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="service-item item-teal position-relative">
+          <div class="projects-item item-teal position-relative">
             <div class="icon">
-              <img height="100" src="${imageEmail}" width="100">
+              <img height="100" src="${imageCode}" width="100">
             </div>
-            <a class="stretched-link" href="">
-              <h3>E-mail hosting</h3>
+            <a class="stretched-link" href="https://github.com/AeroBytesNL/UptimeKuma-custom-status-page-theme" target="_blank">
+              <h3>Uptime Kuma theme</h3>
             </a>
-            <p>Hosting E-mail services with Exim, Dovecot and an SMTP relay.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-          <div class="service-item item-red position-relative">
-            <div class="icon">
-              <img height="100" src="${imageSite}" width="100">
-            </div>
-            <a class="stretched-link" href="">
-              <h3>Web management</h3>
-            </a>
-            <p>Managing websites like WordPress.</p>
-            <a class="stretched-link" href="#"></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-          <div class="service-item item-indigo position-relative">
-            <div class="icon">
-              <img height="100" src="${imageThinker}" width="100">
-            </div>
-            <a class="stretched-link" href="">
-              <h3>Thinkering</h3>
-            </a>
-            <p>I love to thinker with hardware, software and electronics.</p>
-            <a class="stretched-link" href="#"></a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-          <div class="service-item item-pink position-relative">
-            <div class="icon">
-              <img height="100" src="${imageCad}" width="100">
-            </div>
-            <a class="stretched-link" href="">
-              <h3>CAD</h3>
-            </a>
-            <p>Creating designs for my hobby in the RC world</p>
-            <a class="stretched-link" href="#"></a>
+            <p>
+			A nice looking theme for UptimeKuma, whichs is shown on my uptime page!
+			</p>
           </div>
         </div>
       </div>
