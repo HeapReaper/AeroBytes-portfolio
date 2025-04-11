@@ -7,7 +7,7 @@ import { Hero } from '@pages/Hero.ts';
 import { About } from '@pages/About.ts';
 import { Resume } from '@pages/Resume.ts';
 import { Tools } from '@pages/Tools.ts';
-import { Services } from '@pages/Services.ts';
+import { Projects } from '@pages/Projects.ts';
 // import { Testimonials } from '@pages/Testimonials.ts';
 
 const app: HTMLElement | null = document.querySelector<HTMLDivElement>('#app');
@@ -19,7 +19,7 @@ if (app) {
   app.appendChild(About());
   app.appendChild(Resume());
   app.appendChild(Tools());
-  app.appendChild(Services());
+  app.appendChild(Projects());
   //app.appendChild(Testimonials());
   app.appendChild(Footer());
 } else {

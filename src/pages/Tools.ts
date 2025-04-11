@@ -37,163 +37,157 @@ export function Tools(): HTMLElement {
   toolsSection.innerHTML = `
     <div class="container section-title" data-aos="fade-up">
       <h2>
-        Tools, frameworks and coding languages
+        A glimpse into my development arsenal
       </h2>
-      <p>
-        These are the ones I use the most.
-      </p>
     </div>
     
-    <div class="container">
-      <div class="row gy-4 justify-content-center">
-        <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
-          <p align="center">
-            <h2 align="center">Tools</h2>
-            <div align="center">
-              <div class="image-hover-resize-10">
-                <img src="${imagePhpStorm}" style="width: 45px;" />
-                <p>PhpStorm</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imagePyCharm}" style="width: 45px;" />
-                <p>PyCharm</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageWebStorm}"" style="width: 45px;" />
-                <p>WebStorm</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageVsCode}" style="width: 45px;" />
-                <p>VSCode</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageGit}" style="width: 50px;" />
-                <p>Git</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageGitHub}" style="width: 45px;" />
-                <p>GitHub</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageRedis}" style="width: 45px;" />
-                <p>Redis</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageActions}" style="width: 45px;" />
-                <p>GitHub Actions</p>
-              </div>                            
-              
-            </div>
-          </p>
+<div class="container">
+  <div class="row gy-4 justify-content-center">
+    <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
+      <p align="center">
+        <h2 align="center">Frameworks</h2>
+        <div align="center">
+          <div class="image-hover-resize-10">
+            <img src="${imageAlpineJS}" style="width: 50px;" />
+            <p>AlpineJS</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageBootstrap}" style="width: 50px;" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageDisnake}" style="width: 50px;" />
+            <p>Disnake</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageLaravel}" style="width: 45px;" />
+            <p>Laravel</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageLivewire}" style="width: 50px;" />
+            <p>Livewire</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageTailWindCSS}" style="width: 50px;" />
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageViteJS}" style="width: 50px;" />
+            <p>Vite</p>
+          </div>
         </div>
-
-        <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
-          <p align="center">
-            <h2 align="center">Frameworks</h2>
-            <div align="center">
-              <div class="image-hover-resize-10">
-                <img src="${imageLaravel}" style="width: 45px;" />
-                <p>Laravel</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageLivewire}" style="width: 50px;" />
-                <p>Livewire</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageAlpineJS}" style="width: 50px;" />
-                <p>AlpineJS</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageBootstrap}" style="width: 50px;" />
-                <p>Bootstrap</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageTailWindCSS}" style="width: 50px;" />
-                <p>Tailwind CSS</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageDisnake}" style="width: 50px;" />
-                <p>Disnake</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageViteJS}" style="width: 50px;" />
-                <p>Vite</p>
-              </div>
-            </div>
-          </p>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
-          <p align="center">
-            <h2 align="center">Languages</h2>
-            <div align="center">
-              <div class="image-hover-resize-10">
-                <img src="${imagePhp}" style="width: 60px;" />
-                <p>PHP</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imagePython}" style="width: 50px;" />
-                <p>Python</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageJS}" style="width: 50px;" />
-                <p>JavaScript</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageTS}" style="width: 50px;" />
-                <p>TypeScript</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageHtml}" style="width: 50px;" />
-                <p>HTML5</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageCss}" style="width: 50px;" />
-                <p>CSS3</p>
-              </div>
-            </div>
-          </p>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
-          <p align="center">
-            <h2 align="center">Tech</h2>
-            <div align="center">
-              <div class="image-hover-resize-10">
-                <img src="${imageDocker}" style="width: 55px;" />
-                <p>Docker</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imagelinux}" style="width: 55px;" />
-                <p>Linux</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageMariaDB}" style="width: 55px;" />
-                <p>MariaDB</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageMySQL}" style="width: 65px;" />
-                <p>MySQL</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageProxmox}" style="width: 50px;" />
-                <p>Proxmox VE</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageCoolify}" style="width: 65px;" />
-                <p>Coolify</p>
-              </div>
-              <div class="image-hover-resize-10">
-                <img src="${imageDirectAdmin}" style="width: 50px;" />
-                <p>DirectAdmin</p>
-              </div>              
-            </div>
-            
-          </p>
-        </div>
-      </div>
+      </p>
     </div>
-  `;
+
+    <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
+      <p align="center">
+        <h2 align="center">Languages</h2>
+        <div align="center">
+          <div class="image-hover-resize-10">
+            <img src="${imageCss}" style="width: 50px;" />
+            <p>CSS3</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageHtml}" style="width: 50px;" />
+            <p>HTML5</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageJS}" style="width: 50px;" />
+            <p>JavaScript</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imagePhp}" style="width: 60px;" />
+            <p>PHP</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imagePython}" style="width: 50px;" />
+            <p>Python</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageTS}" style="width: 50px;" />
+            <p>TypeScript</p>
+          </div>
+        </div>
+      </p>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
+      <p align="center">
+        <h2 align="center">Tech</h2>
+        <div align="center">
+          <div class="image-hover-resize-10">
+            <img src="${imageCoolify}" style="width: 65px;" />
+            <p>Coolify</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageDirectAdmin}" style="width: 50px;" />
+            <p>DirectAdmin</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageDocker}" style="width: 55px;" />
+            <p>Docker</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imagelinux}" style="width: 55px;" />
+            <p>Linux</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageMariaDB}" style="width: 55px;" />
+            <p>MariaDB</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageMySQL}" style="width: 65px;" />
+            <p>MySQL</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageProxmox}" style="width: 50px;" />
+            <p>Proxmox VE</p>
+          </div>
+        </div>
+      </p>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-6" data-aos="fade-up" data-aos-delay="100">
+      <p align="center">
+        <h2 align="center">Tools</h2>
+        <div align="center">
+          <div class="image-hover-resize-10">
+            <img src="${imageActions}" style="width: 45px;" />
+            <p>GitHub Actions</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageGitHub}" style="width: 45px;" />
+            <p>GitHub</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageGit}" style="width: 50px;" />
+            <p>Git</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imagePhpStorm}" style="width: 45px;" />
+            <p>PhpStorm</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imagePyCharm}" style="width: 45px;" />
+            <p>PyCharm</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageRedis}" style="width: 45px;" />
+            <p>Redis</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageVsCode}" style="width: 45px;" />
+            <p>VSCode</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imageWebStorm}"" style="width: 45px;" />
+            <p>WebStorm</p>
+          </div>
+        </div>
+      </p>
+    </div>
+  </div>
+</div>  `;
 
   return toolsSection;
 }
