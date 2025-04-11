@@ -13,11 +13,8 @@ export function Projects() {
 	servicesSection.innerHTML = `
 	  <div class="container section-title" data-aos="fade-up">
       <h2>
-        What i do
-			</h2>
-      <p>
-        Services
-      </p>
+        Projects
+	  </h2>
     </div>
     
     <div class="container">
