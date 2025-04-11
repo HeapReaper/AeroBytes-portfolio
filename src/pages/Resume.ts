@@ -62,7 +62,7 @@ export function Resume(): HTMLElement {
             </div>
             
             <div class="resume-item">
-              <h4></h4>
+              <h4>Air channel mechanic</h4>
               <h5>05-2018 - 07-2021</h5>
               <p><em>Integralis, Netherlands</em></p>
               <ul>
