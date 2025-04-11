@@ -25,6 +25,9 @@ import imageMariaDB from '@img/icons/mariadb-logo-vert_blue-transparent.webp';
 import imageMySQL from '@img/icons/mysql_logo.webp';
 import imageProxmox from '@img/icons/proxmox.webp';
 import imageCoolify from '@img/icons/coolify-logo.webp';
+import imageRedis from '@img/icons/redis.webp';
+import imageActions from '@img/icons/gh-actions.png';
+import imageDirectAdmin from '@img/icons/directadmin.svg';
 
 export function Tools(): HTMLElement {
   const toolsSection: HTMLElement = document.createElement('section');
@@ -71,6 +74,15 @@ export function Tools(): HTMLElement {
                 <img src="${imageGitHub}" style="width: 45px;" />
                 <p>GitHub</p>
               </div>
+              <div class="image-hover-resize-10">
+                <img src="${imageRedis}" style="width: 45px;" />
+                <p>Redis</p>
+              </div>
+              <div class="image-hover-resize-10">
+                <img src="${imageActions}" style="width: 45px;" />
+                <p>GitHub Actions</p>
+              </div>                            
+              
             </div>
           </p>
         </div>
@@ -171,7 +183,12 @@ export function Tools(): HTMLElement {
                 <img src="${imageCoolify}" style="width: 65px;" />
                 <p>Coolify</p>
               </div>
+              <div class="image-hover-resize-10">
+                <img src="${imageDirectAdmin}" style="width: 50px;" />
+                <p>DirectAdmin</p>
+              </div>              
             </div>
+            
           </p>
         </div>
       </div>
