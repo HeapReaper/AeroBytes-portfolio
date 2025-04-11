@@ -37,7 +37,7 @@ export function Tools(): HTMLElement {
   toolsSection.innerHTML = `
     <div class="container section-title" data-aos="fade-up">
       <h2>
-        A glimpse into my development arsenal.
+        A glimpse into my development arsenal
       </h2>
     </div>
     
