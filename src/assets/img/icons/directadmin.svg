@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 102.8 102.8" style="enable-background:new 0 0 456.3 102.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#8F9195;}
+	.st1{fill:#34383C;}
+	.st2{fill:#0682B4;}
+	.st3{fill:#31B7E9;}
+	.st4{fill:none;}
+</style>
+
+<g>
+	<g>
+		<g>
+			<g>
+				<polygon class="st2" points="90.9,51.9 90.9,51.9 40.6,3 26.6,17.4 62.6,52.3 27.7,88.1 42,102.1     "/>
+			</g>
+			<g>
+				<polygon class="st3" points="87.8,48.9 87.8,48.9 37.6,0 23.5,14.4 59.5,49.3 24.6,85.2 38.9,99.2     "/>
+			</g>
+		</g>
+		<line class="st4" x1="43.9" y1="103.7" x2="93" y2="53.4"/>
+	</g>
+	<g>
+		<g>
+			
+				<rect x="9.9" y="60.2" transform="matrix(0.6974 -0.7167 0.7167 0.6974 -35.6671 40.2486)" class="st2" width="39.9" height="4.2"/>
+			
+				<rect x="1.2" y="43.9" transform="matrix(0.6974 -0.7167 0.7167 0.6974 -32.2372 31.4629)" class="st3" width="39.9" height="20"/>
+		</g>
+		
+			<rect x="5.8" y="26.1" transform="matrix(0.6974 -0.7167 0.7167 0.6974 -20.2407 21.8994)" class="st3" width="20.1" height="17.5"/>
+	</g>
+</g>
+</svg>
