@@ -72,7 +72,7 @@ export function Resume(): HTMLElement {
           </div>
         </div>
         
-        <div class="col-lg-6 resume-col" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6 resume-col mb-4" data-aos="fade-up" data-aos-delay="100">
           <h3 class="resume-title">Services i run for others</h3>
 
           <div class="">
