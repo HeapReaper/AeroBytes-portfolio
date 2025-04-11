@@ -8,7 +8,7 @@ import { About } from '@pages/About.ts';
 import { Resume } from '@pages/Resume.ts';
 import { Tools } from '@pages/Tools.ts';
 import { Projects } from '@pages/Projects.ts';
-// import { Testimonials } from '@pages/Testimonials.ts';
+import { Testimonials } from '@pages/Testimonials.ts';
 
 const app: HTMLElement | null = document.querySelector<HTMLDivElement>('#app');
 
