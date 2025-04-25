@@ -66,7 +66,7 @@ export function Resume(): HTMLElement {
               <h5>05-2018 - 07-2021</h5>
               <p><em>Integralis, Netherlands</em></p>
               <ul>
-                <li>Mounting of air channels<br>  </li>
+                <li>Mounting of air channels<br></li>
               </ul>
             </div>
           </div>
