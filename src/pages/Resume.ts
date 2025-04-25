@@ -30,7 +30,7 @@ export function Resume(): HTMLElement {
                   booking system
                 </li>
                 <li>
-                  Configuring of their company website
+                  Configuration of their company website
                 </li>
               </ul>
             </div>
