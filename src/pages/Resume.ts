@@ -30,7 +30,7 @@ export function Resume(): HTMLElement {
                   booking system
                 </li>
                 <li>
-                  Configuring of their company website
+                  Configuration of their company website
                 </li>
               </ul>
             </div>
@@ -66,14 +66,14 @@ export function Resume(): HTMLElement {
               <h5>05-2018 - 07-2021</h5>
               <p><em>Integralis, Netherlands</em></p>
               <ul>
-                <li>Mounting of air channels<br>  </li>
+                <li>Mounting of air channels<br></li>
               </ul>
             </div>
           </div>
         </div>
         
         <div class="col-lg-6 resume-col mb-4" data-aos="fade-up" data-aos-delay="100">
-          <h3 class="resume-title">Services i run for others</h3>
+          <h3 class="resume-title">Services I run for others</h3>
 
           <div class="">
             <div class="resume-item pb-0">
