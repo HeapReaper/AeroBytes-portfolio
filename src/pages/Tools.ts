@@ -28,6 +28,7 @@ import imageCoolify from '@img/icons/coolify-logo.webp';
 import imageRedis from '@img/icons/redis.webp';
 import imageActions from '@img/icons/gh-actions.png';
 import imageDirectAdmin from '@img/icons/directadmin.svg';
+import imageFleet from '@img/icons/fleet.webp';
 
 export function Tools(): HTMLElement {
   const toolsSection: HTMLElement = document.createElement('section');
@@ -151,6 +152,10 @@ export function Tools(): HTMLElement {
       <p align="center">
         <h2 align="center">Tools</h2>
         <div align="center">
+          <div class="image-hover-resize-10">
+            <img src="${imageFleet}" style="width: 55px;" />
+            <p>Fleet</p>
+          </div>
           <div class="image-hover-resize-10">
             <img src="${imageActions}" style="width: 45px;" />
             <p>GitHub Actions</p>
