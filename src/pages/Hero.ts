@@ -18,7 +18,7 @@ export function Hero(): HTMLElement {
           </h2>
           <p class="text-white">
             <span class="typed"
-              data-typed-items="Just like flight, great development and hosting is about balance, efficiency, performance and control.">
+              data-typed-items="">
             </span>
             <span
               aria-hidden="true" class="typed-cursor typed-cursor--blink">
@@ -43,6 +43,21 @@ export function Hero(): HTMLElement {
   return heroSection;
 }
 
+const quotes = [
+  `"Talk is cheap. Show me the code." — Linus Torvalds`,
+  `"If you automate a mess, you get an automated mess." — Rod Michael`,
+  `"Security is not a product, it's a process." — Bruce Schneier`,
+  `"The best way to predict the future is to invent it." — Alan Kay`,
+  `"Programs must be written for people to read, and only incidentally for machines to execute." — Harold Abelson`,
+  `"The only way to go fast, is to go well." — Robert C. Martin`,
+  `"You don’t secure a system by hoping nobody finds the vulnerabilities — you secure it by assuming they will."`,
+  `"In theory, there is no difference between theory and practice. But, in practice, there is." — Jan L. A. van de Snepscheut`,
+  `"First, solve the problem. Then, write the code." — John Johnson`,
+  `"There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies… and the other way is to make it so complicated that there are no obvious deficiencies." — Tony Hoare`,
+  `"Failure is simply the opportunity to begin again, this time more intelligently." — Henry Ford`,
+  `"Good code is its own best documentation." — Steve McConnell`,
+];
+
 /**
  * Type animation for the hero section
  *
@@ -52,6 +67,10 @@ document.addEventListener('DOMContentLoaded', (): void => {
   const selectTyped: Element | null = document.querySelector('.typed');
 
   if (!selectTyped) return;
+
+  const quote = quotes[Math.floor(Math.random() * quotes.length)];
+
+  selectTyped.setAttribute('data-typed-items', quote);
 
   const typedArray: Array<any> = [selectTyped.getAttribute('data-typed-items')];
 
