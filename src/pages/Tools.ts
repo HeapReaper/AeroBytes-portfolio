@@ -29,6 +29,7 @@ import imageRedis from '@img/icons/redis.webp';
 import imageActions from '@img/icons/gh-actions.png';
 import imageDirectAdmin from '@img/icons/directadmin.svg';
 import imageFleet from '@img/icons/fleet.webp';
+import imageAdonisJS from '@img/icons/adonisjs.png';
 
 export function Tools(): HTMLElement {
   const toolsSection: HTMLElement = document.createElement('section');
@@ -48,6 +49,10 @@ export function Tools(): HTMLElement {
       <p align="center">
         <h2 align="center">Frameworks</h2>
         <div align="center">
+          <div class="image-hover-resize-10">
+            <img src="${imageAdonisJS}" style="width: 50px;" />
+            <p>AdonisJS</p>
+          </div>
           <div class="image-hover-resize-10">
             <img src="${imageAlpineJS}" style="width: 50px;" />
             <p>AlpineJS</p>
