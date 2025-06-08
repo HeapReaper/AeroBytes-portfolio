@@ -25,7 +25,7 @@ export function Hero(): HTMLElement {
           </span>
           </p>
           <div class="social-links">
-            <a class="text-white image-hover-resize-10-shadow" href="https://github.com/AeroBytesNL" target="_blank">
+            <a class="text-white image-hover-resize-10-shadow" href="https://github.com/HeapReaper" target="_blank">
               <i class="bi bi-github"></i>
             </a>
             <a class="text-white image-hover-resize-10-shadow" href="https://www.youtube.com/@AeroBytesNL" target="_blank">
