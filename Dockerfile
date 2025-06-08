@@ -18,4 +18,6 @@ COPY --from=base /app/dist ./dist
 
 RUN bun add serve
 
+EXPOSE 3001
+
 CMD ["bun", "x", "serve", "dist", "-l", "3001"]
