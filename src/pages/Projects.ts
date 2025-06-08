@@ -20,7 +20,7 @@ export function Projects() {
             <div class="icon">
               <img height="100" src="${imageCode}" width="100">
             </div>
-            <a class="stretched-link" href="https://github.com/AeroBytesNL/AllDayBot-TS" target="_blank">
+            <a class="stretched-link" href="https://github.com/HeapReaper/AllDayBot-TS" target="_blank">
               <h3>AllDayBot</h3>
             </a>
             <p>
@@ -34,7 +34,7 @@ export function Projects() {
             <div class="icon">
               <img height="100" src="${imageCode}" width="100">
             </div>
-            <a class="stretched-link" href="https://github.com/AeroBytesNL/Kiyomi" target="_blank">
+            <a class="stretched-link" href="https://github.com/HeapReaper/Kiyomi" target="_blank">
               <h3>Kiyomi</h3>
             </a>
       			<p>
@@ -48,7 +48,7 @@ export function Projects() {
             <div class="icon">
               <img height="100" src="${imageCode}" width="100">
             </div>
-            <a class="stretched-link" href="https://github.com/AeroBytesNL/QuickPoll" target="_blank">
+            <a class="stretched-link" href="https://github.com/HeapReaper/QuickPoll" target="_blank">
               <h3>QuickPoll</h3>
             </a>
             <p>
@@ -62,7 +62,7 @@ export function Projects() {
             <div class="icon">
               <img height="100" src="${imageCode}" width="100">
             </div>
-            <a class="stretched-link" href="https://github.com/AeroBytesNL/UptimeKuma-custom-status-page-theme" target="_blank">
+            <a class="stretched-link" href="https://github.com/HeapReaper/UptimeKuma-custom-status-page-theme" target="_blank">
               <h3>Uptime Kuma theme</h3>
             </a>
             <p>
