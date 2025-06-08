@@ -1,23 +1,19 @@
-FROM oven/bun:1.1 AS base
+FROM node:20 AS builder
 
 WORKDIR /app
-
-COPY package.json bun.lockb* ./
-
-RUN bun install
-
 COPY . .
 
-RUN bun run build
+RUN npm install
+RUN npm run build
 
-FROM oven/bun:1.1 AS runtime
+# Step 2: Serve with Vite's preview server
+FROM node:20 AS runner
 
 WORKDIR /app
+COPY --from=builder /app /app
 
-COPY --from=base /app/dist ./dist
+RUN npm install -g serve
 
-RUN bun add serve
+EXPOSE 4173
 
-EXPOSE 3001
-
-CMD ["bun", "x", "serve", "dist", "-l", "3001"]
+CMD ["npm", "run", "preview"]
