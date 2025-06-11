@@ -1,19 +1,14 @@
 FROM node:20 AS builder
 
 WORKDIR /app
+
 COPY . .
 
-RUN npm install
-RUN npm run build
+RUN npm install && npm run build
 
-# Step 2: Serve with Vite's preview server
-FROM node:20 AS runner
+FROM nginx:alpine
+COPY --from=builder /app/dist /usr/share/nginx/html
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
-WORKDIR /app
-COPY --from=builder /app /app
-
-RUN npm install -g serve
-
-EXPOSE 4173
-
-CMD ["npm", "run", "preview"]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
