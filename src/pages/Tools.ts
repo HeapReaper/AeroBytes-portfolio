@@ -30,7 +30,7 @@ import imageActions from '@img/icons/gh-actions.png';
 import imageDirectAdmin from '@img/icons/directadmin.svg';
 import imageFleet from '@img/icons/fleet.webp';
 import imageAdonisJS from '@img/icons/adonisjs.png';
-
+import imagecPanel from '@img/icons/cPanel.png'
 export function Tools(): HTMLElement {
   const toolsSection: HTMLElement = document.createElement('section');
   toolsSection.className = 'services section';
@@ -124,6 +124,10 @@ export function Tools(): HTMLElement {
           <div class="image-hover-resize-10">
             <img src="${imageCoolify}" style="width: 65px;" />
             <p>Coolify</p>
+          </div>
+          <div class="image-hover-resize-10">
+            <img src="${imagecPanel}" style="width: 65px;" />
+            <p>cPanel</p>
           </div>
           <div class="image-hover-resize-10">
             <img src="${imageDirectAdmin}" style="width: 50px;" />
