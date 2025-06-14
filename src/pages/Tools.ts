@@ -30,7 +30,8 @@ import imageActions from '@img/icons/gh-actions.png';
 import imageDirectAdmin from '@img/icons/directadmin.svg';
 import imageFleet from '@img/icons/fleet.webp';
 import imageAdonisJS from '@img/icons/adonisjs.png';
-import imagecPanel from '@img/icons/cPanel.png'
+import imagecPanel from '@img/icons/cPanel.png';
+
 export function Tools(): HTMLElement {
   const toolsSection: HTMLElement = document.createElement('section');
   toolsSection.className = 'services section';
